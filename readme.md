@@ -2,6 +2,26 @@
 
 This repo helps to deploy Windows Containers with Azure Container Instances integrated with Virtual Networks.
 
+## Running this demo
+
+1. Save the Bicep file as main.bicep to your local computer.
+2. Deploy the Bicep file using either Azure CLI.
+
+### Azure CLI
+
+```shell
+az group create --name exampleRG --location eastus
+az deployment group create --resource-group exampleRG --template-file main.bicep
+```
+
+### Clean up deployment
+
+When no longer needed, use the Azure portal, Azure CLI to delete the container and all of the resources in the resource group.
+
+```shell
+az group delete --name exampleRG --yes --no-wait
+```
+
 ### Windows Server 2016
 
 > 1B and 2B hosts have been deprecated for Windows Server 2016. See [Host and container version compatibility](/virtualization/windowscontainers/deploy-containers/update-containers#host-and-container-version-compatibility) for more information on 1B, 2B, and 3B hosts.
