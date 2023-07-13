@@ -34,7 +34,7 @@ This repo helps to deploy Windows Containers with Azure Container Instances inte
 > 1B and 2B hosts have been deprecated for Windows Server 2019 LTSC. See [Host and container version compatibility](/virtualization/windowscontainers/deploy-containers/update-containers#host-and-container-version-compatibility) for more information on 1B, 2B, and 3B hosts.
 
 | Region | 3B Max CPU | 3B Max Memory (GB) | Storage (GB) | Availability Zone support |
-| -------- | :----: | :-----: | :-------: |
+| -------- | :----: | :-----: | :-------: | :-------: |
 | Australia East | 4 | 16 | 20 | Y |
 | Brazil South | 4 | 16 | 20 | Y |
 | Canada Central | 4 | 16 | 20 | N |
