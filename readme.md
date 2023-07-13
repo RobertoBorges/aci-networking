@@ -5,7 +5,7 @@ This repo helps to deploy Windows Containers with Azure Container Instances inte
 ## Running this demo
 
 1. Save the Bicep file as main.bicep to your local computer.
-2. Deploy the Bicep file using either Azure CLI.
+2. Deploy the Bicep file using Azure CLI.
 
 ### Azure CLI
 
@@ -21,6 +21,10 @@ When no longer needed, use the Azure portal, Azure CLI to delete the container a
 ```shell
 az group delete --name exampleRG --yes --no-wait
 ```
+
+## Important notes
+
+Check the following table to see the maximum number of CPU cores, memory, and storage for each region.
 
 ### Windows Server 2016
 
