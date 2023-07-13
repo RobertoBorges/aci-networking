@@ -14,6 +14,10 @@ az group create --name exampleRG --location eastus
 az deployment group create --resource-group exampleRG --template-file main.bicep
 ```
 
+Result:
+
+![Result screenshot](./img/result.png)
+
 ### Clean up deployment
 
 When no longer needed, use the Azure portal, Azure CLI to delete the container and all of the resources in the resource group.
